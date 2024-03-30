@@ -1,0 +1,17 @@
+{
+  "name": "tomorrow-house",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "d-sass" : "sass",
+    "sass" : "sass -wr styles/main.scss:./style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.72.0"
+  }
+}
