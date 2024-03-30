@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "d-sass" : "sass",
-    "sass" : "sass -wr styles/main.scss:./style.css"
+    "d-sass": "sass",
+    "sass": "sass -wr --no-source-map styles/main.scss:./style.css"
   },
   "keywords": [],
   "author": "",
